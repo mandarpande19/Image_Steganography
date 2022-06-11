@@ -293,7 +293,7 @@ def generate_binary(data):
 
 # Load image
 def load_img():
-    resource_name = "./resources/about-card.jpg"
+    resource_name = "./resources/original.jpg"
     image = Image.open(resource_name,'r')
     return image
 
